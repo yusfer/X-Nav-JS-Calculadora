@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="csscalc.css" title="style" />
 		<script src="jscalcubin.js"></script>
 		<meta charset="utf-8" />
 		<title> Calculadora binaria </title>
 	</head>
 	<body>
+		<img href="images/cabecera.jpg"/>
+		<div id="display">  </div>
+		<div id="resultado"> </div>
 		<p>
-		<span id="cero"></span> <a href="javascript:pulsatecla('numero',0)"> AÑADE 0</a>
-		<span id="uno"></span> <a href="javascript:pulsatecla('numero',1)"> AÑADE 1</a>
-		<span id="mas"></span> <a href="javascript:pulsatecla('numero','+')"> AÑADE +</a>
-		<span id="igual"></span> <a href="javascript:pulsatecla('numero','=','resultado')"> =</a>
-		<div id="numero">  </div>
+		<span class="tecla" id="cero"> <a href="javascript:pulsatecla('display',0)">  0 </a></span>
+		<span class="tecla" id="uno"> <a href="javascript:pulsatecla('display',1)">  1 </a></span>
+		<span class="tecla" id="mas"> <a href="javascript:pulsatecla('display','+')">  + </a></span>
+		<span class="tecla" id="igual"> <a href="javascript:pulsatecla('display','=','resultado')"> = </a></span>
+		<div id="display">  </div>
 		<div id="resultado"> </div>
 		</p>
 	</body>

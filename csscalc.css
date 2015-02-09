@@ -1,0 +1,26 @@
+
+.tecla{
+	
+	font-size: 32px;
+	margin: 40px 0 0 30px;
+	border-style: solid;
+    border-width: 3px;
+	
+	padding: 20px;
+    width: 50px;
+}
+
+#display,#resultado{
+	
+	font-size: 32px;
+	margin: 40px 0 0 30px;
+	border-style: solid;
+    border-width: 3px;
+    text-align:right;
+	
+	padding: 20px;
+    width: 300px;
+
+}
+
+
